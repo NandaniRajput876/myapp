@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+#main{
+  display: grid;
+  grid-template-columns: 16% 84%;
+  background-color: rgb(214, 221, 227);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#main2{
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+    margin-bottom: 30px;
+    margin-right: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#span1{
+    grid-row:span 2;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#first{
+    border: 2px solid rgb(243, 239, 239);
+    box-shadow: 2px 2px 3px whitesmoke;
+    border-radius: 10px;
+    grid-row:span 2;
 }
-
-.App-link {
-  color: #61dafb;
+#firsttable{
+    border:1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#assurance1{
+    background-image: linear-gradient(to right,blue,rgb(210, 16, 181));
+    border-radius: 20px;
+    padding:10px;
+}
+#second{
+    border: 2px solid rgb(243, 239, 239);
+    box-shadow: 2px 2px 3px whitesmoke;
+    border-radius: 10px;
+    grid-column:span 2;
+    text-align: center;
+}
+#second h3{
+    color: blue;
+    display: inline;
+    border:1px solid rgb(184, 184, 173);
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#third h4{
+ border: 1px solid rgb(13, 13, 13);
+ padding:10px;
+ margin-right: 25px;
+}
+#third{
+    border: 2px solid rgb(243, 239, 239);
+    box-shadow: 2px 2px 3px whitesmoke;
+    border-radius: 10px;
+}
+#fourth{
+    border: 2px solid rgb(243, 239, 239);
+    box-shadow: 2px 3px 3px whitesmoke;
+    border-radius: 10px;
+}
+#fourth1{
+    border: 2px dotted rgb(48, 83, 199);
+    padding-top:55px;
+    padding-bottom: 55px;
+    border-radius: 10px;
+    text-align: center;
+    color: blue;
+}
+#ass{
+    position: absolute;
+    right:1090px;
+    top:65px;
 }
